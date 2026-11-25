@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+.env*
+!.env.example
+
+# Archivos de Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+/media/
+/staticfiles/
+
+# Pruebas y cobertura
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Empaquetado y distribución
+*.egg-info/
+dist/
+build/
+
+# Editores y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
